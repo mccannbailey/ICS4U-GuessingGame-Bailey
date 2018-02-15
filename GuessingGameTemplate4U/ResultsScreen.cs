@@ -29,7 +29,7 @@ namespace GuessingGameTemplate4U
 
             Form1.userGuesses.Sort();
             var sortOrder = string.Join(",", Form1.userGuesses.ToArray());  // create sorted list of strings to display
-            sortedLabel.Text = "Sorted order:  " + sortOrder;
+            sortedLabel.Text = "Sorted order:  " + sortOrder;  
         }
 
         private void button1_Click(object sender, EventArgs e)      // play again method, clear list
